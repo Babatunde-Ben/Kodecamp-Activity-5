@@ -1,9 +1,91 @@
+:root{
+    --babypink: #f7d7c8;
+    --light: #999999;
+    --dark: rgb(0, 0, 0);
+    --verylight:#ffffff;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body{
-    background-color: rgb(255, 38, 38);
+.light-pink{
+    color: var(--babypink);
 }
+.light{
+    color: var(--light);
+}
+.very-light{
+    color: var(--verylight);
+}
+body{
+    /* background-color: rgb(255, 38, 38); */
+    /* color: rgb(131, 107, 63); */
+    padding: 0 6rem;
+    font-family: sans-serif;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+}
+.profile .icon{
+    display: inline-block;
+    margin: 1em 0.6em;
+}
+.profile h1{
+    margin: 0.5em 0;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+.profile img{
+    /* width:125px;
+    height: 125px; */
+    width:23em;
+    height: 25em;
+    /* width:25%;
+    height: 25%; */
+    border-radius: 50%;
+    margin: 0.5em 0;
+}
+.profile h3{
+    margin: 1em 0;
+text-transform: capitalize;}
+.profile p{
+width: 40em;
+text-align: justify;
+margin: 0.5em 0;
+}
+.section-1{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1em 2em;
+}
+.section-1 .first{
+    width: 45%;
+}
+.section-1 .first .upper{
+    margin: 0.5em 0;
+    text-transform: uppercase;
+}
+.section-1 .second{
+    width: 45%;
+}
+.section-1 .second .note{
+margin: 0.5em 0;
+
+}
+.section-1 .second .chat{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section-1 .second .chat p{
+ margin: 0 0.5em ;
+}
+
