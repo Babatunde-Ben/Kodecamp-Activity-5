@@ -37,9 +37,9 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--dark);
 }
 .profile .icon{
+    font-size: 2em;
     display: inline-block;
     margin: 1em 0.6em;
 }
@@ -91,8 +91,12 @@ margin: 0.5em 0;
   justify-content: flex-start;
   align-items: center;
 }
-.section-1 .second .chat p{
+.section-1 .second .chat a{
  margin: 0 0.5em ;
+ text-decoration: none;
+}
+.section-1 .second .chat a:hover{
+ color: var(--babypink);
 }
 .section-2{
     width: 70%;
@@ -220,7 +224,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 10vh;
+    height: 30vh;
     padding: 1.5em 0;
 }
 footer a{
