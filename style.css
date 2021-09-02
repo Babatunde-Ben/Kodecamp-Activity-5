@@ -192,6 +192,12 @@ margin: 0.5em 0;
 .section-5 span{
      margin: 0 1em;
 }
+.section-5 #small-img{
+     width: 10em;
+     height: 9em;
+     border-radius: 50%;
+     margin-top: 2em;
+}
 .section-6{
     width: 30%;
     margin: 0 auto;
